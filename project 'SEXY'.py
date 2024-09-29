@@ -12,10 +12,10 @@ agree.click()
 
 
 id = browser.find_element_by_id('user_id')
-id.send_keys('086la980@student.psb.edu.sg')
+id.send_keys('your id')
 
 id = browser.find_element_by_id('password')
-id.send_keys('Qoanstjd99!')
+id.send_keys('your password')
 
 sign_up = browser.find_element_by_class_name('button.expand.inverse.outline')
 sign_up.click()
